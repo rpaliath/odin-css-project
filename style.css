@@ -72,10 +72,11 @@ button {
 
 .random-box  {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
-   gap: 5px;
+    font-size: 12px;
+   gap: 10px;
 
 }
 
@@ -90,4 +91,73 @@ button {
     height: 100px;
     border: 3px solid  #3882F6;
     border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+    
+    }
+
+.quote {
+   font-style: italic;
+    font-weight:lighter
+}
+
+.author  {
+    margin-left: 300px;
+    font-weight: 900;
+     
+}
+
+ .footer-container {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+   
+    
+ }
+
+  .footer   {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 0;
+
+       
+}
+
+.footer-para1   {
+    font-weight: bold;
+    padding-right: 325px;
+    
+    
+  
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ .footer-button  {
+    color:#E5E7EB;
+    font-weight: bold;
+    border: 2px solid white ;
+    border-radius: 5px;
+    font-size: 14px;
+    
+    
+}
+
+.footer-para2  {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
