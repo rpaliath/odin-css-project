@@ -1,17 +1,21 @@
 .first-header {
     background-color: #1F2937;
     display: flex;
-    font-size: 24px;
-    
-    justify-content: space-around;
+    font-size: 24px;    
+    justify-content: space-between;
     align-items: center;
 
 }
-.header-logo {
+.logo-text {
     
     color: #F9FAF8;
-    font-weight:24px bold;
+    font: 14px bold;
     font-weight: 900;
+}
+ .logo-container  {
+
+    display: flex;    
+    align-items: center;
     
 }
 button {
@@ -19,16 +23,44 @@ button {
     font-size: 14px;
     color: white;
     border: none;
+    cursor: pointer;
+    
+}
+
+ img  {
+    width: 140px;
+    height: 140px;
+    padding-left: 10px;
+    margin: 0;
     
 }
 
 .nav2  {
     display:flex ;
-    justify-content: left;
+    justify-content:center;
     align-items:center;   
-    gap:10px
+    gap:10px;
+    
+    
+}
+.nav2  button {
+ background-color: #228422;
+ cursor: pointer;
+
 }
 
+.picture {
+ background-color: transparent;
+color: white
+}
+
+
+.picture  img  {
+    width: 325px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
  .second-header  {
  background-color: #1F2937;
  display: flex;
@@ -77,20 +109,27 @@ button {
     align-items: center;
     font-size: 12px;
    gap: 10px;
-
+   
 }
 
 .random-box1   {
-   display: block;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
    align-items: center;
+   margin: auto;
 }
 
-.box  {
+.random-box1  p {
+    font-size: medium;
+   font-style: italic;;
+}
 
-    width: 100px;
-    height: 100px;
-    border: 3px solid  #3882F6;
-    border-radius: 10px;
+
+
+.random-box1  img {
+    width: 300px;
+    height: 200px;
 }
 
 .quote-section {
