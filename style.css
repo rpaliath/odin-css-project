@@ -18,11 +18,11 @@
     align-items: center;
     
 }
-button {
-   background: transparent;
+button {   
     font-size: 14px;
     color: white;
     border: none;
+    border-radius: 5%;
     cursor: pointer;
     
 }
@@ -136,6 +136,8 @@ color: white
     background-color: #E5E7EB;
     padding: 20px;
     text-align: center;
+    height: 150px;
+    margin-top: 20px;
     
     }
 
@@ -168,6 +170,7 @@ color: white
     justify-content: center;
     align-items: center;
     padding: 30px;
+    border-radius: 8px;
     gap: 0;
 
        
@@ -175,7 +178,7 @@ color: white
 
 .footer-para1   {
     font-weight: bold;
-    padding-right: 325px;
+    padding-right: 440px;
     
     
   
@@ -191,6 +194,7 @@ p {
     border: 2px solid white ;
     border-radius: 5px;
     font-size: 14px;
+    background-color: transparent;
     
     
 }
